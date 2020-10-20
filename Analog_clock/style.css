@@ -12,6 +12,7 @@ body {
 }
   
 .clock {
+    margin-top: 100px;
     width: 300px;
     height: 300px;
     background-color: rgba(238, 232, 238, 0.8);
@@ -68,20 +69,34 @@ body {
     border-radius: 50%;
 }
   
-.second {
+.second-hand {
     width: 3px;
     height: 45%;
     background-color: red;
 }
   
-.minute {
+.minute-hand {
     width: 7px;
     height: 40%;
     background-color: black;
 }
   
-.hour {
+.hour-hand {
     width: 10px;
     height: 35%;
     background-color: black;
+}
+
+.manual{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 9px;
 }
