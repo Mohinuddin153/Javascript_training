@@ -12,6 +12,7 @@ body {
 }
   
 .clock {
+    margin-left:200px ;
     margin-top: 100px;
     width: 300px;
     height: 300px;
@@ -80,7 +81,7 @@ body {
     height: 40%;
     background-color: black;
 }
-  
+
 .hour-hand {
     width: 10px;
     height: 35%;
@@ -88,6 +89,8 @@ body {
 }
 
 .manual{
+    /* margin-top: 250px; */
+
     border: 1px solid black;
     height: 100px;
     width: 200px;
@@ -99,4 +102,20 @@ body {
 
 .btn{
     margin: 9px;
+}
+
+.speed{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.time-zone{
+    display: grid;
+    
+    /* flex-direction: column; */
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
 }
