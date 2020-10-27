@@ -25,7 +25,6 @@ console.log(Math.floor(number))
 console.log(Math.ceil(number))
 console.log(Math.round(number))
 console.log(Math.trunc(number))
-
 console.log(Math.random())
 
 console.log(Math.max(4,5,7,-2,0))

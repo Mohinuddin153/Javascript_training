@@ -2,7 +2,6 @@
 const hourHand = document.querySelector('#hour-hand')
 const minuteHand = document.querySelector('#minute-hand')
 const secondHand = document.querySelector('#second-hand')
-
 const res=document.getElementById("res");
 var ss=1000;
 var interval;
@@ -12,6 +11,7 @@ export class clock {
         this.minute = currentDate.getMinutes();
         this.second = currentDate.getSeconds();
     }
+    
     display=() =>{
         const secondsRatio = this.second++ / 60
         const minutesRatio = (secondsRatio + this.minute) / 60

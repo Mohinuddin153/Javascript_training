@@ -8,6 +8,7 @@ const m=document.getElementById("minute")
 const b=document.getElementById("btn").onclick=setTime;
 function setTime(){
     currentDate.setHours(h.value,m.value,0)
+    
     let obj2= new clock(currentDate);
     time(obj2)
 }

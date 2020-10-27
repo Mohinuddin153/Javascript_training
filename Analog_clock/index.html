@@ -7,7 +7,8 @@
   <title>Clock</title>
 </head>
 <body>
-  <div class="clock">
+  
+  <div class="clock" >
     <div class="hand hour-hand" id="hour-hand"></div>
     <div class="hand minute-hand" id="minute-hand"></div>
     <div class="hand second-hand" id="second-hand"></div>
@@ -24,7 +25,8 @@
     <div class="number number11">11</div>
     <div class="number number12">12</div>
   </div>
-<div style="display: flex; flex-direction: column; margin: 20px;">
+
+<div style="display: flex;flex-direction: column; margin: 20px;">
   <div class="manual">
     <p>Set Time</p>
     <div>
@@ -35,19 +37,21 @@
     <!-- <input type="reset" id="reset"> -->
   </div>
   <div class="speed">
-    <p>Change</p>
+    <p>Change speed</p>
     <input type="number" min="1" max="5" value="1" id="sp-val">
     <input type="button" value="submit" class="btn" id="sp-btn">
   </div>
-  <!-- <div class="time-zone">
+  <div class="time-zone">
     <p>Change time-zone</p>
-    <input type="radio" name="ee" id="">
-    <input type="radio" name="ee" id="">
-    <input type="radio" name="ee" id="">
-  </div> -->
+
+    <label><input type="radio" name="ee" id="ny">Australia/Brisbane</label>
+    <label><input type="radio" name="ee" id="cl">Asia/Shanghai</label>
+    <label><input type="radio" name="ee" id="dd">America/New_York</label>
+  </div>
 </div>
 <input type="reset" value="reset" id="res">
   <script type="module" src="modules\speed.js"></script>
+  <script type="module" src="modules/timeZone.js"></script>
   <script type="module" src="modules\setTime.js"></script>
   <script type="module" src="script.js"></script>
 </body>
